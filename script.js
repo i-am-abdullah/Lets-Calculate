@@ -5,6 +5,7 @@ Array.from(btn).forEach((bt)=>{
 bt.addEventListener("click",(e)=>{
    if(e.target.innerHTML=="="){
     str=eval(str)
+    str=eval(inp.value)
     inp.value = str
    }
 
